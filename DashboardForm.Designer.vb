@@ -22,15 +22,37 @@ Partial Class DashboardForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Guna2CheckBox1 = New Guna.UI2.WinForms.Guna2CheckBox()
         SuspendLayout()
+        ' 
+        ' Guna2CheckBox1
+        ' 
+        Guna2CheckBox1.AutoSize = True
+        Guna2CheckBox1.CheckedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CheckBox1.CheckedState.BorderRadius = 0
+        Guna2CheckBox1.CheckedState.BorderThickness = 0
+        Guna2CheckBox1.CheckedState.FillColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2CheckBox1.Location = New Point(190, 251)
+        Guna2CheckBox1.Name = "Guna2CheckBox1"
+        Guna2CheckBox1.Size = New Size(119, 19)
+        Guna2CheckBox1.TabIndex = 0
+        Guna2CheckBox1.Text = "Guna2CheckBox1"
+        Guna2CheckBox1.UncheckedState.BorderColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
+        Guna2CheckBox1.UncheckedState.BorderRadius = 0
+        Guna2CheckBox1.UncheckedState.BorderThickness = 0
+        Guna2CheckBox1.UncheckedState.FillColor = Color.FromArgb(CByte(125), CByte(137), CByte(149))
         ' 
         ' DashboardForm
         ' 
         AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(975, 585)
+        ClientSize = New Size(1081, 733)
+        Controls.Add(Guna2CheckBox1)
         Name = "DashboardForm"
         Text = "Dashboard"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
+
+    Friend WithEvents Guna2CheckBox1 As Guna.UI2.WinForms.Guna2CheckBox
 End Class
