@@ -1718,11 +1718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\CAPSTONE\\CAP101.vbproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\DemoGraphic_Data\\waa_ka_john\\CAPSTONE\\CAP101.vbproj",
       "projectName": "CAP101",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\CAPSTONE\\CAP101.vbproj",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\DemoGraphic_Data\\waa_ka_john\\CAPSTONE\\CAP101.vbproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\CAPSTONE\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\DemoGraphic_Data\\waa_ka_john\\CAPSTONE\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1737,7 +1737,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1754,9 +1753,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0-windows7.0": {
@@ -1794,7 +1793,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
