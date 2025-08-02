@@ -41,3 +41,4 @@ C:\Users\Admin\OneDrive\Documents\GitHub\CAPSTONE\obj\Debug\net9.0-windows7.0\re
 C:\Users\Admin\OneDrive\Documents\GitHub\CAPSTONE\obj\Debug\net9.0-windows7.0\CAP101.pdb
 C:\Users\Admin\OneDrive\Documents\GitHub\CAPSTONE\obj\Debug\net9.0-windows7.0\CAP101.genruntimeconfig.cache
 C:\Users\Admin\OneDrive\Documents\GitHub\CAPSTONE\obj\Debug\net9.0-windows7.0\ref\CAP101.dll
+C:\Users\Admin\OneDrive\Documents\GitHub\CAPSTONE\obj\Debug\net9.0-windows7.0\CAP101.CertificateProcessing.resources
