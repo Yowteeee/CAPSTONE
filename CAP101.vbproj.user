@@ -7,6 +7,9 @@
     <Compile Update="CedulaTracker.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="DashboardForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DocumentProcessing.vb">
       <SubType>Form</SubType>
     </Compile>
