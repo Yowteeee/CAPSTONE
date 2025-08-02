@@ -36,6 +36,10 @@ Partial Class DashboardForm
         Guna2GradientButton2 = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2GradientButton3 = New Guna.UI2.WinForms.Guna2GradientButton()
         Guna2GradientButton4 = New Guna.UI2.WinForms.Guna2GradientButton()
+        Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        PictureBox1 = New PictureBox()
+        Guna2GradientButton1 = New Guna.UI2.WinForms.Guna2GradientButton()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -45,6 +49,10 @@ Partial Class DashboardForm
         PictureBox1.Location = New Point(1, 0)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(752, 458)
+        PictureBox1.Image = My.Resources.Resources.Screenshot_9
+        PictureBox1.Location = New Point(3, 1)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(971, 583)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -52,6 +60,7 @@ Partial Class DashboardForm
         ' Guna2GradientButton1
         ' 
         Guna2GradientButton1.BorderRadius = 15
+        Guna2GradientButton1.BorderRadius = 10
         Guna2GradientButton1.CustomizableEdges = CustomizableEdges1
         Guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray
         Guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray
@@ -120,6 +129,14 @@ Partial Class DashboardForm
         Guna2GradientButton4.Size = New Size(124, 109)
         Guna2GradientButton4.TabIndex = 1
         Guna2GradientButton4.Text = "PWD'S"
+        Guna2GradientButton1.Font = New Font("Segoe UI", 9F)
+        Guna2GradientButton1.ForeColor = Color.White
+        Guna2GradientButton1.Location = New Point(246, 432)
+        Guna2GradientButton1.Name = "Guna2GradientButton1"
+        Guna2GradientButton1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Guna2GradientButton1.Size = New Size(158, 128)
+        Guna2GradientButton1.TabIndex = 1
+        Guna2GradientButton1.Text = "Guna2GradientButton1"
         ' 
         ' DashboardForm
         ' 
@@ -129,6 +146,7 @@ Partial Class DashboardForm
         Controls.Add(Guna2GradientButton4)
         Controls.Add(Guna2GradientButton3)
         Controls.Add(Guna2GradientButton2)
+        ClientSize = New Size(975, 585)
         Controls.Add(Guna2GradientButton1)
         Controls.Add(PictureBox1)
         Name = "DashboardForm"
