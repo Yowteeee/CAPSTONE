@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3GjPVkwmz40=",
+  "dgSpecHash": "MEX8XKImtJY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\CAPSTONE\\CAP101.vbproj",
+  "projectFilePath": "C:\\Users\\Admin\\Documents\\GitHub\\DemoGraphic_Data\\qweqwe\\CAPSTONE\\CAP101.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fontawesome.sharp\\6.6.0\\fontawesome.sharp.6.6.0.nupkg.sha512",
@@ -37,5 +37,15 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "message": "Problem reading the cache file C:\\Users\\Admin\\Documents\\GitHub\\DemoGraphic_Data\\qweqwe\\CAPSTONE\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
+      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\DemoGraphic_Data\\qweqwe\\CAPSTONE\\CAP101.vbproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Admin\\Documents\\GitHub\\DemoGraphic_Data\\qweqwe\\CAPSTONE\\CAP101.vbproj",
+      "targetGraphs": []
+    }
+  ]
 }

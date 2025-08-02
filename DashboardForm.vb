@@ -57,4 +57,8 @@ Public Class DashboardForm
     Private Sub Guna2PictureBox1_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Guna2GradientButton1_Click(sender As Object, e As EventArgs) Handles Guna2GradientButton1.Click
+
+    End Sub
 End Class
