@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("CAP101"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c594c92a05e9efb7a8c65cb56d13b8e65301dc82"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edd794d7c37a5cbf47517baba1638e206e8e0fcf"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("CAP101"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("CAP101"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
