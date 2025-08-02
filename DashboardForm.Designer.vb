@@ -1,4 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class DashboardForm
     Inherits System.Windows.Forms.Form
 
@@ -147,6 +148,7 @@ Partial Class DashboardForm
         Controls.Add(Guna2GradientButton3)
         Controls.Add(Guna2GradientButton2)
         ClientSize = New Size(975, 585)
+        ClientSize = New Size(1081, 733)
         Controls.Add(Guna2GradientButton1)
         Controls.Add(PictureBox1)
         Name = "DashboardForm"
