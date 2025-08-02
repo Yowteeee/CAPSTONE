@@ -23,7 +23,7 @@ Public Class DashboardForm
     End Sub
 
     Private Sub Guna2ImageButton1_Click(sender As Object, e As EventArgs)
-        Dim frm As New CertificateProccessing
+        Dim frm As New CertificateProcessing
         frm.Show()
     End Sub
 

@@ -161,7 +161,7 @@ Public Class Form1
     Private Sub OpenDashboard()
         Try
             ' Create and show dashboard form
-            Dim dashboardForm As New DashboardForm()
+            Dim DashboardForm As New DashboardForm()
 
             ' Hide current form and show dashboard
             Me.Hide()
